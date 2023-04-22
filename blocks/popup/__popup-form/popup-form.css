@@ -9,7 +9,7 @@
   
   @media (max-width: 565px) {
     .popup__container {
-      max-width: 282px;
-      padding: 25px;
+      max-width: fit-content;
+      padding: 0;
     }
 }
