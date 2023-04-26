@@ -17,5 +17,3 @@ https://arteyev.github.io/mesto/
 
 ### Plans to refine the project
 not yet
-
-
