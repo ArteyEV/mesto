@@ -43,10 +43,10 @@ function openPopup (popup) {
 // Функция закрытия попапа кликом на оверлей
 function closePopupOverlay (evt) {
   if (evt.target.classList.contains('popup')) {
-    const openedPopup = document.querySelector('.popup_is-opened');
-    closePopup(openedPopup);
+    closePopup(evt.target);
   };
 }
+
 
 // Функция закрытия попапа нажатием клавиши Esc
 function closePopupEscKey (evt) {
